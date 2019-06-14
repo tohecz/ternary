@@ -17,7 +17,7 @@ Two files are needed from the repo: `universal.py` and `create_number_lists.sage
 
 ## `count`
 
-Two files are needed from the repo: `count.cpp` and `create_run_count.sage`. If you do not have SageMath installed, you also need `run_count.sh`. How to run:
+Three files are needed from the repo: `count.cpp`, `count.sh` and `create_run_count.sage`. If you do not have SageMath installed, you also need `run_count.sh`. How to run:
 
 0. Run `create_run_count.sage`. This will generate the file `run_count.sh`.
 0. Make `run_count.sh` executable by `chmod +x run_count.sh`
