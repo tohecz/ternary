@@ -21,5 +21,6 @@ Three files are needed from the repo: `count.cpp`, `count.sh` and `create_run_co
 
 1. Run `create_run_count.sage`. This will generate the file `run_count.sh`.
 1. Make `run_count.sh` executable by `chmod +x run_count.sh`
+1. Check that `THREADS` at the beginning of `count.cpp` matches the number of cores of your computer.
 1. Run `run_count.sh`.
 1. The output is in files `c_<a>_<b>_<c>_<p>.txt`. If the file contains a line with `ZERO <n>`, this indicates that the form `<a,b,c*p>` is a candidate for a `(p,l)`-universal for `n` different `l`'s. These candidates can be identified for instance by `grep ZERO c_*.txt`.
